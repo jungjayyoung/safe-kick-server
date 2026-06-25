@@ -10,6 +10,8 @@ safe-kick-server/
 │   ├── routes/                 # API 라우터
 │   │   ├── auth.js             # POST /auth/register, /auth/login, /auth/face-verify
 │   │   ├── users.js            # GET /users/me
+|   |   ├── session.js
+|   |   ├── kickboard.js
 │   │   └── rides.js            # GET/POST /rides, /rides/start, /rides/:id/end
 │   │
 │   ├── controllers/            # 라우터별 비즈니스 로직
